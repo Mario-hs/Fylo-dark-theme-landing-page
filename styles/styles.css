@@ -4,4 +4,9 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
+
+html {
+  background-color: gray;
+  color: white;
+}
 /*# sourceMappingURL=styles.css.map */
