@@ -1,10 +1,19 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+@import './variable.scss';
+@import './reset.scss';
+
+header {
+    padding: 45px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-html {
-    background-color: gray;
-    color: white;
+.intro, header {
+    background-color: $intro-email-background;
 }
+
+main {
+    background-color: $main-background;
+    color: $white;
+}
+

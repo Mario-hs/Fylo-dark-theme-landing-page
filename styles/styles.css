@@ -5,8 +5,37 @@
           box-sizing: border-box;
 }
 
-html {
-  background-color: gray;
+*, li {
+  text-decoration: none;
+}
+
+h1, h2, h3, p, button {
+  font-family: "Raleway", sans-serif;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+header {
+  padding: 45px 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.intro, header {
+  background-color: #1c2431;
+}
+
+main {
+  background-color: #181f2a;
   color: white;
 }
 /*# sourceMappingURL=styles.css.map */
