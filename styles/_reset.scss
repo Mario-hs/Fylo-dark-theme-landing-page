@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-size: 14px;
 }
 
 *, li, a {
@@ -13,6 +14,7 @@
 h1, h2, h3, p, button {
     font-family: $font;
 }
+
 
 body {
     font-family: $font-body;

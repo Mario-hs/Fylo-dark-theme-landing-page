@@ -6,7 +6,7 @@ header {
     justify-content: space-between;
     align-items: center;
     
-    padding: 45px 25px;
+    padding: 25px 25px 40px;
     background-color: $intro-email-background;
     
     img {
@@ -33,6 +33,23 @@ main {
     .illustration {
         width: 100%;
     }
+
+    h1 {
+        font-size: 1.8rem;
+        text-align: center;
+        line-height: 3rem;
+    }
+
+    h2 {
+        font-size: 1.4rem;
+        text-align: center;
+        margin: 30px auto 20px;
+    }
+
+    p {
+        text-align: center;
+        line-height: 1.8rem;
+    }
     
     .intro {
         background-color: $intro-email-background;
@@ -46,21 +63,13 @@ main {
 
     .intro_text {
         transform: translateY(-120px);
-        padding: 20px 20px;
+        padding: 20px 25px;
 
         h1 {
-            font-size: 1.6rem;
-            text-align: center;
-            line-height: 2.5rem;
-
             padding: 35px 0;
         }
 
         p {
-            font-size: 1.2rem;
-            text-align: center;
-            line-height: 2rem;
-
             padding-bottom: 30px;
         }
         
@@ -82,12 +91,103 @@ main {
         }
     }
 
-    .info {
-        padding: 40px;
+    .actions {
+        padding: 25px;
         margin-top: -100px;
+        margin-bottom: 30px;
+
+        .action_block {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+
+            img {
+                margin-top: 30px;
+            }
+            
+            p {
+                margin-bottom: 40px;
+            }
+        }
+    }
+
+    .productive {
+        padding: 10px 25px 80px;
+
+        p {
+            text-align: start;
+            margin-bottom: 20px;
+        }
+
+        .button_productive {
+            display: flex;
+            align-items: center;
+
+            border: none;
+            border-bottom: solid $cyan-gradient 1.5px;
+
+            color: $cyan-gradient;
+            background: none;
+
+            padding: 0px 0px 7px;
+
+            cursor: pointer;
+
+            img {
+                margin-left: 5px;
+            }
+        }
     }
 
     .works {
+        padding: 40px 30px 0px;
+
+        .apostrophe_works {
+            display: block;
+            width: 30px;
+        }
+
+        .container_works {
+            background-color: $intro-email-background;
+            padding: 25px 15px 20px;
+            margin-bottom: 20px;
+            border-radius: 0.5rem;
+
+            p {
+                font-size: 0.9rem;
+                line-height: 1.5rem;
+                text-align: start;
+
+                padding-bottom:20px;
+            }
+
+            .founder_works {
+                display: flex;
+                align-items: center;
+
+                img {
+                    width: 40px;
+                    height: 40px;
+                    border-radius: 50%;
+                }
+
+                .founder_info {
+                    margin-left: 10px;
+                    h3 {
+                        font-size: 0.8rem;
+                    }
+    
+                    p {
+                        font-size: 0.7rem;
+                        padding: 0px;
+                    }
+                }
+            }
+            
+        }
+
+        
     }
 }
 

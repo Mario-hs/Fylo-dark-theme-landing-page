@@ -3,6 +3,7 @@
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  font-size: 14px;
 }
 
 *, li, a {
@@ -27,7 +28,7 @@ header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 45px 25px;
+  padding: 25px 25px 40px;
   background-color: #1c2431;
 }
 
@@ -55,6 +56,23 @@ main .illustration {
   width: 100%;
 }
 
+main h1 {
+  font-size: 1.8rem;
+  text-align: center;
+  line-height: 3rem;
+}
+
+main h2 {
+  font-size: 1.4rem;
+  text-align: center;
+  margin: 30px auto 20px;
+}
+
+main p {
+  text-align: center;
+  line-height: 1.8rem;
+}
+
 main .intro {
   background-color: #1c2431;
   background-image: url(../projeto/images/bg-curvy-mobile.svg);
@@ -67,20 +85,14 @@ main .intro {
 main .intro_text {
   -webkit-transform: translateY(-120px);
           transform: translateY(-120px);
-  padding: 20px 20px;
+  padding: 20px 25px;
 }
 
 main .intro_text h1 {
-  font-size: 1.6rem;
-  text-align: center;
-  line-height: 2.5rem;
   padding: 35px 0;
 }
 
 main .intro_text p {
-  font-size: 1.2rem;
-  text-align: center;
-  line-height: 2rem;
   padding-bottom: 30px;
 }
 
@@ -105,8 +117,110 @@ main .intro_text button {
   border-radius: 2.5rem;
 }
 
-main .info {
-  padding: 40px;
+main .actions {
+  padding: 25px;
   margin-top: -100px;
+  margin-bottom: 30px;
+}
+
+main .actions .action_block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+main .actions .action_block img {
+  margin-top: 30px;
+}
+
+main .actions .action_block p {
+  margin-bottom: 40px;
+}
+
+main .productive {
+  padding: 10px 25px 80px;
+}
+
+main .productive p {
+  text-align: start;
+  margin-bottom: 20px;
+}
+
+main .productive .button_productive {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: none;
+  border-bottom: solid #65e2d9 1.5px;
+  color: #65e2d9;
+  background: none;
+  padding: 0px 0px 7px;
+  cursor: pointer;
+}
+
+main .productive .button_productive img {
+  margin-left: 5px;
+}
+
+main .works {
+  padding: 40px 30px 0px;
+}
+
+main .works .apostrophe_works {
+  display: block;
+  width: 30px;
+}
+
+main .works .container_works {
+  background-color: #1c2431;
+  padding: 25px 15px 20px;
+  margin-bottom: 20px;
+  border-radius: 0.5rem;
+}
+
+main .works .container_works p {
+  font-size: 0.9rem;
+  line-height: 1.5rem;
+  text-align: start;
+  padding-bottom: 20px;
+}
+
+main .works .container_works .founder_works {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .works .container_works .founder_works img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+main .works .container_works .founder_works .founder_info {
+  margin-left: 10px;
+}
+
+main .works .container_works .founder_works .founder_info h3 {
+  font-size: 0.8rem;
+}
+
+main .works .container_works .founder_works .founder_info p {
+  font-size: 0.7rem;
+  padding: 0px;
 }
 /*# sourceMappingURL=styles.css.map */
