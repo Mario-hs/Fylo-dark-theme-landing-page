@@ -6,7 +6,8 @@
   font-size: 14px;
 }
 
-*, li, a {
+*, li, a, ul {
+  list-style: none;
   text-decoration: none;
 }
 
@@ -174,7 +175,7 @@ main .productive .button_productive img {
 }
 
 main .works {
-  padding: 40px 30px 0px;
+  padding: 40px 20px 0px;
 }
 
 main .works .apostrophe_works {
@@ -184,8 +185,8 @@ main .works .apostrophe_works {
 
 main .works .container_works {
   background-color: #1c2431;
-  padding: 25px 15px 20px;
-  margin-bottom: 20px;
+  padding: 25px 25px 20px;
+  margin: auto 20px 20px;
   border-radius: 0.5rem;
 }
 
@@ -222,5 +223,95 @@ main .works .container_works .founder_works .founder_info h3 {
 main .works .container_works .founder_works .founder_info p {
   font-size: 0.7rem;
   padding: 0px;
+}
+
+main .works .container_support {
+  background-color: #1c2431;
+  padding: 25px 25px 20px;
+  border-radius: 0.5rem;
+  -webkit-transform: translateY(200px);
+          transform: translateY(200px);
+}
+
+main .works .container_support h2 {
+  margin: 20px auto 30px;
+}
+
+main .works .container_support p {
+  margin-bottom: 30px;
+}
+
+main .works .container_support input, main .works .container_support button {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 20px;
+  border: none;
+  border-radius: 2.5rem;
+}
+
+main .works .container_support button {
+  background-color: #65e2d9;
+  font-weight: 700;
+  color: white;
+}
+
+footer {
+  background-color: #0b1523;
+  padding: 300px 40px 30px;
+}
+
+footer a, footer p {
+  color: white;
+}
+
+footer .infor_footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 15px;
+}
+
+footer .infor_footer img {
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin-right: 20px;
+}
+
+footer .infor_footer p {
+  padding: 0;
+  line-height: 1.8rem;
+}
+
+footer .location {
+  margin-top: 40px;
+}
+
+footer .location img {
+  height: 23px;
+}
+
+footer .location p {
+  padding: 0 15px 0 5px;
+}
+
+footer ul :first-child {
+  margin-top: 40px;
+}
+
+footer ul div {
+  margin-bottom: 40px;
+}
+
+footer ul div li {
+  padding: 5px 0;
+}
+
+footer .attribution {
+  text-align: center;
+}
+
+footer .attribution a {
+  color: #65e2d9;
 }
 /*# sourceMappingURL=styles.css.map */
