@@ -10,14 +10,14 @@ header {
     background-color: $intro-email-background;
     
     img {
-        width: 120px;
+        width: 90px;
     }
     
     button {
         font-size: 16px;
         background: none;
         border: none;
-        padding-left: 35px;
+        padding-left: 15px;
 
         a {
             color: $white;
@@ -41,17 +41,17 @@ main {
         background-repeat: no-repeat;
         background-position-y: bottom;
 
-        padding: 20px 40px 125px;
+        padding: 20px 40px 90px;
     }
 
     .intro_text {
-        transform: translateY(-150px);
-        padding: 20px 40px;
+        transform: translateY(-120px);
+        padding: 20px 20px;
 
         h1 {
-            font-size: 2.2rem;
+            font-size: 1.6rem;
             text-align: center;
-            line-height: 3.2rem;
+            line-height: 2.5rem;
 
             padding: 35px 0;
         }
@@ -89,7 +89,7 @@ main {
 
     .works {
     }
-    }
+}
 
     
 
