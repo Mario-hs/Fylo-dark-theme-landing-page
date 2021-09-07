@@ -390,6 +390,9 @@ footer .attribution a {
 }
 
 @media (min-width: 1024px) {
+  header img {
+    width: 150px;
+  }
   main h1 {
     font-size: 2.8rem;
     line-height: 3.5rem;

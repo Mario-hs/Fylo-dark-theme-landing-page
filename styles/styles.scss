@@ -358,6 +358,12 @@ footer {
 }
 
 @media(min-width: 1024px) {
+    header {
+        img {
+            width: 150px;
+        }
+    }
+
     main {
         h1{
             font-size: 2.8rem;
