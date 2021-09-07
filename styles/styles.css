@@ -143,6 +143,9 @@ main .actions .action_block img {
 }
 
 main .actions .action_block p {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
   margin-bottom: 40px;
 }
 
@@ -317,6 +320,9 @@ footer .attribution a {
 }
 
 @media (min-width: 650px) {
+  header {
+    padding: 55px 75px 40px;
+  }
   main .illustration {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -380,6 +386,125 @@ footer .attribution a {
   }
   footer ul div {
     margin: 40px 60px 40px 0 !important;
+  }
+}
+
+@media (min-width: 1024px) {
+  main h1 {
+    font-size: 2.8rem;
+    line-height: 3.5rem;
+  }
+  main p {
+    font-size: 1.4rem;
+    line-height: 2rem;
+  }
+  main .illustration {
+    width: 700px;
+  }
+  main .intro {
+    background-image: url(../projeto/images/bg-curvy-desktop.svg);
+    padding-bottom: 550px;
+  }
+  main .intro_text {
+    -webkit-transform: translateY(-560px);
+            transform: translateY(-560px);
+    width: 750px;
+    margin: auto;
+    padding: 20px 25px;
+  }
+  main .intro_text button {
+    width: 250px;
+  }
+  main .actions {
+    margin: -400px 10vw auto;
+  }
+  main .actions .action_block {
+    max-width: 550px;
+  }
+  main .actions .action_block img {
+    max-width: none;
+    max-height: none;
+  }
+  main .actions .action_block p {
+    margin: auto 0px 50px;
+    font-size: 1.1rem;
+    padding: 0 50px;
+  }
+  main .productive {
+    margin: 100px 20px 50px 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  main .productive div {
+    margin: 70px 0px 20px 50px;
+  }
+  main .productive h2 {
+    margin: 0px 0px 20px;
+    font-size: 2.4rem;
+    line-height: 3.5rem;
+    width: 350px;
+    text-align: start;
+  }
+  main .works .apostrophe_works {
+    width: auto;
+    margin-bottom: -5px;
+    position: relative;
+  }
+  main .works .founders_works {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  main .works .founders_works .container_works {
+    padding: 35px 35px 30px;
+  }
+}
+
+@media (min-width: 1200px) {
+  main .works .container_support {
+    padding: 50px 70px 40px;
+    margin: auto;
+    width: 1100px;
+    -webkit-transform: translateY(140px);
+            transform: translateY(140px);
+  }
+  main .works .container_support p {
+    margin: auto 30px 30px;
+  }
+  main .works .container_support .inputs {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  main .works .container_support .inputs input {
+    padding: 20px 20px 20px 40px;
+  }
+  main .works .container_support .inputs button {
+    margin-left: 50px;
+    width: 450px;
+    font-size: 1.4rem;
+  }
+  footer {
+    padding: 250px 100px 50px;
+  }
+  footer .container_content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  footer .container_content .info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 40px 100px auto 0px;
+  }
+  footer .container_content .info .location {
+    margin-top: 0px;
+    margin-right: 100px;
+  }
+  footer .container_content .info .location p {
+    width: 300px;
   }
 }
 /*# sourceMappingURL=styles.css.map */
