@@ -436,6 +436,9 @@ footer .attribution a {
     display: -ms-flexbox;
     display: flex;
   }
+  main .productive .illustration {
+    width: 450px;
+  }
   main .productive div {
     margin: 70px 0px 20px 50px;
   }
@@ -459,9 +462,16 @@ footer .attribution a {
   main .works .founders_works .container_works {
     padding: 35px 35px 30px;
   }
+  main .works h2 {
+    font-size: 2.4rem;
+    line-height: 3.5rem;
+  }
 }
 
 @media (min-width: 1200px) {
+  main .productive .illustration {
+    width: 700px;
+  }
   main .works .container_support {
     padding: 50px 70px 40px;
     margin: auto;

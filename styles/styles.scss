@@ -414,7 +414,7 @@ footer {
             display: flex;
 
             .illustration {
-                // width: 450px;
+                width: 450px;
             }
 
             div {
@@ -445,6 +445,10 @@ footer {
                 }
             }
 
+            h2 {
+                font-size: 2.4rem;
+                line-height: 3.5rem;
+            }
             
         }
 
@@ -455,6 +459,12 @@ footer {
 
 @media(min-width: 1200px){
     main {
+        .productive {
+            .illustration {
+                width: 700px;
+            }
+        }
+
         .works {
             .container_support {
                 padding: 50px 70px 40px;
