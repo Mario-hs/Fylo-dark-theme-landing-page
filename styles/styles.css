@@ -338,12 +338,37 @@ footer .attribution a {
   }
   main .actions {
     margin-top: -150px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: wrap;
+        flex-flow: wrap;
   }
-  main .actions .action_block p {
-    padding: 0px 150px;
+  main .actions .action_block {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    margin: 0 20px;
+    min-width: 40%;
+  }
+  main .actions .action_block img {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    max-width: 70px;
+    max-height: 70px;
+  }
+  main .productive {
+    padding: 10px 55px 50px;
+  }
+  main .productive h2 {
+    margin: 60px auto 20px;
   }
   main .works {
     padding: 40px 50px 0px;
+  }
+  main .works .container_support {
+    margin: 0 30px;
   }
   footer ul {
     display: -webkit-box;

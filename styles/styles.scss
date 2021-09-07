@@ -303,15 +303,40 @@ footer {
 
         .actions {
             margin-top: -150px;
+            display: flex;
+            flex-flow: wrap;
 
-            .action_block p {
-                padding: 0px 150px;
+            .action_block {
+                flex: 1;
+                margin: 0 20px;
+                min-width: 40%;
+
+                img {
+                    flex: 1;
+                    max-width: 70px;
+                    max-height: 70px;
+                }
+            }
+             
+        }
+
+        .productive {
+            padding: 10px 55px 50px;
+
+            h2 {
+                margin: 60px auto 20px;
             }
         }
 
         .works {
             padding: 40px 50px 0px;
+
+            .container_support {
+                margin: 0 30px;
+            }
         }
+
+        
     }
 
     footer {
