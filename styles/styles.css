@@ -309,9 +309,52 @@ footer ul div li {
 
 footer .attribution {
   text-align: center;
+  line-height: 1.8rem;
 }
 
 footer .attribution a {
   color: #65e2d9;
+}
+
+@media (min-width: 650px) {
+  main .illustration {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: auto;
+    width: 70%;
+  }
+  main .intro {
+    padding: 20px 40px 220px;
+  }
+  main .intro_text {
+    -webkit-transform: translateY(-220px);
+            transform: translateY(-220px);
+    padding: 0px 50px;
+  }
+  main .intro_text p {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+  main .actions {
+    margin-top: -150px;
+  }
+  main .actions .action_block p {
+    padding: 0px 150px;
+  }
+  main .works {
+    padding: 40px 50px 0px;
+  }
+  footer ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  footer ul :first-child {
+    margin-top: 0;
+  }
+  footer ul div {
+    margin: 40px 60px 40px 0 !important;
+  }
 }
 /*# sourceMappingURL=styles.css.map */

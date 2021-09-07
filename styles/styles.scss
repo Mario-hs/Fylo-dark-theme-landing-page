@@ -271,8 +271,58 @@ footer {
 
     .attribution {
         text-align: center;
+        line-height: 1.8rem;
         a {
             color: $cyan-gradient;
         }
     }
 } 
+
+@media(min-width: 650px) {
+    
+    main {
+        .illustration {
+            display: flex;
+            margin: auto;
+            width: 70%;
+        }
+
+        .intro {
+            padding: 20px 40px 220px;
+        }
+
+        .intro_text {
+            transform: translateY(-220px);
+            padding: 0px 50px;
+            
+            p {
+                padding-left: 60px;
+                padding-right: 60px;
+            }
+        }
+
+        .actions {
+            margin-top: -150px;
+
+            .action_block p {
+                padding: 0px 150px;
+            }
+        }
+
+        .works {
+            padding: 40px 50px 0px;
+        }
+    }
+
+    footer {
+        ul {
+            :first-child {
+                margin-top: 0;
+            }
+            display: flex;
+            div {
+                margin: 40px 60px 40px 0 !important;
+            }
+        }
+    }
+}
