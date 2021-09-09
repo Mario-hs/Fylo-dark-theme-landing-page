@@ -14,6 +14,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap"
     rel="stylesheet">
 
+  <script src="https://unpkg.com/boxicons@2.0.9/dist/boxicons.js"></script>
   <link rel="stylesheet" href="./styles/styles.css">
 
 </head>
@@ -22,8 +23,8 @@
   <header>
     <img src="./projeto/images/logo.svg" alt="logo">
     <nav>
-      <button><a href="#">Features</a></button>
-      <button><a href="#">Team</a></button>
+      <button><a href="#id_feature">Features</a></button>
+      <button><a href="#id_team">Team</a></button>
       <button><a href="#">Sign In</a></button>
     </nav>
   </header>
@@ -44,7 +45,7 @@
       </div>
     </section>
 
-    <section class="actions">
+    <section class="features" id="id_feature">
       <div class="action_block">
         <img src="./projeto/images/icon-access-anywhere.svg" alt="icone de acesso">
         <h2>Access your files, anywhere</h2>
@@ -96,7 +97,7 @@
       </div>
     </section>
 
-    <section class="works">
+    <section class="team" id="id_team">
       <img class="apostrophe_works" src="./projeto/images/bg-quotes.png" alt="imagem de apóstrofo">
 
       <div class="founders_works">
@@ -148,7 +149,7 @@
         <div class="inputs">
           <input class="button_support" type="email" name="email" id="email" placeholder="email@example.com">
 
-          <button class="button_support" type="submit">Get Started For Free</button>
+          <button class="button_support" type="submit" id="started">Get Started For Free</button>
         </div>
       </div>
     </section>
@@ -192,7 +193,17 @@
         </div>
       </ul>
 
-      <div class="icon-sociais"></div>
+      <div class="icon-sociais">
+        <div class="box_icon">
+          <box-icon type='logo' color="white" name='facebook'></box-icon>
+        </div>
+        <div class="box_icon">
+          <box-icon name='instagram' color="white" type='logo'></box-icon>
+        </div>
+        <div class="box_icon">
+          <box-icon name='twitter' color="white" type='logo'></box-icon>
+        </div>
+      </div>
     </div>
 
     <p class="attribution">
@@ -207,3 +218,5 @@
 
 
 </html>
+
+<!-- <i class="fi-xwsuxl-check"></i> -->
