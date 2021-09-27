@@ -16,6 +16,16 @@ h1, h2, h3, p, button {
     font-family: $font;
 }
 
+button {
+    cursor: pointer;
+}
+
+button, li, ul, a {
+    :hover {
+        color: $cyan-gradient ;
+    }
+}
+
 
 body {
     font-family: $font-body;

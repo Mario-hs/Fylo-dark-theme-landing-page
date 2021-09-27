@@ -15,6 +15,14 @@ h1, h2, h3, p, button {
   font-family: "Raleway", sans-serif;
 }
 
+button {
+  cursor: pointer;
+}
+
+button :hover, li :hover, ul :hover, a :hover {
+  color: #65e2d9;
+}
+
 body {
   font-family: "Open Sans", sans-serif;
 }
@@ -328,13 +336,15 @@ footer .icon-sociais {
       -ms-flex-pack: center;
           justify-content: center;
   margin: 50px auto 40px;
+  cursor: pointer;
+  fill: white;
 }
 
 footer .icon-sociais .box_icon {
   margin: auto 20px;
-  width: 50px;
-  height: 50px;
-  border: solid white 2px;
+  width: 30px;
+  height: 30px;
+  border: solid white 1px;
   border-radius: 50%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -343,17 +353,22 @@ footer .icon-sociais .box_icon {
       -ms-flex-pack: center;
           justify-content: center;
   text-align-last: center;
+  fill: white;
 }
 
 footer .icon-sociais .box_icon box-icon {
   width: 100%;
-  height: 30px;
-  color: white;
+  height: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-item-align: center;
       align-self: center;
+}
+
+footer .icon-sociais :hover {
+  border-color: #65e2d9;
+  fill: #65e2d9;
 }
 
 @media (min-width: 650px) {
